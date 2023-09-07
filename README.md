@@ -1,8 +1,9 @@
 ## Steps to reproduce
 
 1. Modify the import order of the file `TalentCard.tsx`.
-2. Hit ctrl/cmd + s
-3. Now the imports are sorted with extra blank lines :(
+2. `pnpm install`
+3. Hit ctrl/cmd + s
+4. Now the imports are sorted with extra blank lines :(
 
 
 
