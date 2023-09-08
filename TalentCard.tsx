@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 
-import { useTranslation } from '@crehana/i18n';
-import { Skeleton } from '@crehana/ui';
+import { useTranslation } from '@my-org/i18n';
+import { Skeleton } from '@my-org/ui';
 
 import type { Talent } from '../../types';
 import Module from './Module';
