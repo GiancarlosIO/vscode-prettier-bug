@@ -3,9 +3,9 @@ import type { FC } from 'react';
 import clsx from 'clsx';
 import { useRouter } from 'next/router';
 
-import { useAmplitude } from '@crehana/analytics';
-import { ArrowRight } from '@crehana/compass.icons.outline';
-import { Clamp, LazyImageResponsive } from '@crehana/ui';
+import { useAmplitude } from '@my-org/analytics';
+import { ArrowRight } from '@my-org/icons';
+import { Clamp, LazyImageResponsive } from '@my-org/ui';
 
 import { Card } from '../../types';
 

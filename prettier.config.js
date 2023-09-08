@@ -13,7 +13,7 @@ module.exports = {
     '',
     '<THIRD_PARTY_MODULES>',
     '',
-    '^@crehana/(.*)$',
+    '^@my-org/(.*)$',
     '',
     '^(@)(/.*)$',
     '',
