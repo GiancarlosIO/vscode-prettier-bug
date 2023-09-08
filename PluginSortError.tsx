@@ -16,23 +16,9 @@ interface CardProps {
 
 const Card: FC<CardProps> = ({ card, isDark }) => {
   const { title, description, url, image, cta, hoverClassName } = card;
-  const { logEvent } = useAmplitude();
-
-  const router = useRouter();
-  const { orgSlug: slug } = router.query as { orgSlug: string };
 
   const handleClick = () => {
-    logEvent({
-      event: 'Click Home Item Admin',
-      data: {
-        'Click URL': url,
-        'Item name': title,
-        Organization: slug,
-      },
-      callback: () => {
-        router.push(url);
-      },
-    });
+
   };
 
   return (
